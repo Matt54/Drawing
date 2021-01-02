@@ -11,6 +11,14 @@
 		4F6CDC4625A0DE6100F6800B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6CDC4525A0DE6100F6800B /* ContentView.swift */; };
 		4F6CDC4825A0DE6200F6800B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F6CDC4725A0DE6200F6800B /* Assets.xcassets */; };
 		4F6CDC4B25A0DE6200F6800B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F6CDC4A25A0DE6200F6800B /* Preview Assets.xcassets */; };
+		4FEDB5C625A0FBC100755BE5 /* TrapezoidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEDB5C525A0FBC100755BE5 /* TrapezoidView.swift */; };
+		4FEDB5C925A0FBEF00755BE5 /* FlowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEDB5C825A0FBEF00755BE5 /* FlowerView.swift */; };
+		4FEDB5CC25A0FC5500755BE5 /* RGBCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEDB5CB25A0FC5500755BE5 /* RGBCircleView.swift */; };
+		4FEDB5CF25A0FC8000755BE5 /* ImagePaintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEDB5CE25A0FC8000755BE5 /* ImagePaintView.swift */; };
+		4FEDB5D225A0FCA300755BE5 /* SimpleShapeViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEDB5D125A0FCA300755BE5 /* SimpleShapeViews.swift */; };
+		4FEDB5D525A0FCC700755BE5 /* ColorCyclingCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEDB5D425A0FCC700755BE5 /* ColorCyclingCircleView.swift */; };
+		4FEDB5D825A0FF4B00755BE5 /* CheckerboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEDB5D725A0FF4B00755BE5 /* CheckerboardView.swift */; };
+		4FEDB5DB25A103A100755BE5 /* SpirographView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEDB5DA25A103A100755BE5 /* SpirographView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +28,14 @@
 		4F6CDC4725A0DE6200F6800B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F6CDC4A25A0DE6200F6800B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4F6CDC4C25A0DE6200F6800B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FEDB5C525A0FBC100755BE5 /* TrapezoidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrapezoidView.swift; sourceTree = "<group>"; };
+		4FEDB5C825A0FBEF00755BE5 /* FlowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerView.swift; sourceTree = "<group>"; };
+		4FEDB5CB25A0FC5500755BE5 /* RGBCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBCircleView.swift; sourceTree = "<group>"; };
+		4FEDB5CE25A0FC8000755BE5 /* ImagePaintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePaintView.swift; sourceTree = "<group>"; };
+		4FEDB5D125A0FCA300755BE5 /* SimpleShapeViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleShapeViews.swift; sourceTree = "<group>"; };
+		4FEDB5D425A0FCC700755BE5 /* ColorCyclingCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCyclingCircleView.swift; sourceTree = "<group>"; };
+		4FEDB5D725A0FF4B00755BE5 /* CheckerboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckerboardView.swift; sourceTree = "<group>"; };
+		4FEDB5DA25A103A100755BE5 /* SpirographView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpirographView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,14 @@
 			children = (
 				4F6CDC4325A0DE6100F6800B /* DrawingApp.swift */,
 				4F6CDC4525A0DE6100F6800B /* ContentView.swift */,
+				4FEDB5D425A0FCC700755BE5 /* ColorCyclingCircleView.swift */,
+				4FEDB5DA25A103A100755BE5 /* SpirographView.swift */,
+				4FEDB5D725A0FF4B00755BE5 /* CheckerboardView.swift */,
+				4FEDB5D125A0FCA300755BE5 /* SimpleShapeViews.swift */,
+				4FEDB5CE25A0FC8000755BE5 /* ImagePaintView.swift */,
+				4FEDB5CB25A0FC5500755BE5 /* RGBCircleView.swift */,
+				4FEDB5C825A0FBEF00755BE5 /* FlowerView.swift */,
+				4FEDB5C525A0FBC100755BE5 /* TrapezoidView.swift */,
 				4F6CDC4725A0DE6200F6800B /* Assets.xcassets */,
 				4F6CDC4C25A0DE6200F6800B /* Info.plist */,
 				4F6CDC4925A0DE6200F6800B /* Preview Content */,
@@ -138,6 +162,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FEDB5CC25A0FC5500755BE5 /* RGBCircleView.swift in Sources */,
+				4FEDB5DB25A103A100755BE5 /* SpirographView.swift in Sources */,
+				4FEDB5C625A0FBC100755BE5 /* TrapezoidView.swift in Sources */,
+				4FEDB5D825A0FF4B00755BE5 /* CheckerboardView.swift in Sources */,
+				4FEDB5C925A0FBEF00755BE5 /* FlowerView.swift in Sources */,
+				4FEDB5CF25A0FC8000755BE5 /* ImagePaintView.swift in Sources */,
+				4FEDB5D525A0FCC700755BE5 /* ColorCyclingCircleView.swift in Sources */,
+				4FEDB5D225A0FCA300755BE5 /* SimpleShapeViews.swift in Sources */,
 				4F6CDC4625A0DE6100F6800B /* ContentView.swift in Sources */,
 				4F6CDC4425A0DE6100F6800B /* DrawingApp.swift in Sources */,
 			);
